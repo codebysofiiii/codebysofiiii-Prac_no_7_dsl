@@ -1,11 +1,11 @@
 # Student Record Management System using Singly Linked List 
 # Node class 
 class Node: 
-def __init__(self, roll_no, name, marks): 
-self.roll_no = roll_no 
-self.name = name 
-        self.marks = marks 
-        self.next = None 
+   def __init__(self, roll_no, name, marks): 
+     self.roll_no = roll_no 
+     self.name = name 
+     self.marks = marks 
+     self.next = None 
  
  
 # Linked List class 
@@ -159,8 +159,8 @@ while True:
         order = int(input("Enter order: ")) 
         student_list.sort(sort_choice, order) 
         student_list.display() 
-elif choice == 7: 
-print("Program terminated.") 
-break 
-else: 
-print("Invalid choice!")        
+    elif choice == 7: 
+      print("Program terminated.") 
+      break 
+   else: 
+       print("Invalid choice!")        
